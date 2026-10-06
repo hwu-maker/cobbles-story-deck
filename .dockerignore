@@ -1,6 +1,7 @@
 node_modules
 .git
-src
-base44
 dist
 .output
+public-site
+.env
+.env.*
