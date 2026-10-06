@@ -9,6 +9,32 @@ const clearStoredAccessToken = () => {
 	window.localStorage.removeItem('token');
 }
 
+const getAccessToken = () => {
+	if (isNode) return null;
+
+	try {
+		const urlParams = new URLSearchParams(window.location.search);
+		const fromUrl = urlParams.get('access_token');
+		if (fromUrl) {
+			window.localStorage.setItem('base44_access_token', fromUrl);
+			window.localStorage.setItem('token', fromUrl);
+			urlParams.delete('access_token');
+			const nextUrl = `${window.location.pathname}${urlParams.toString() ? `?${urlParams.toString()}` : ''}${window.location.hash}`;
+			window.history.replaceState({}, document.title, nextUrl);
+			return fromUrl;
+		}
+	} catch (error) {
+		console.error('Error retrieving token from URL:', error);
+	}
+
+	try {
+		return window.localStorage.getItem('base44_access_token');
+	} catch (error) {
+		console.error('Error retrieving token from local storage:', error);
+		return null;
+	}
+}
+
 const getAppParams = () => {
 	if (isClearAccessTokenRequested()) {
 		clearStoredAccessToken();
