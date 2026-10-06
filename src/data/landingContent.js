@@ -30,8 +30,8 @@ export function bookingUrl({ arrival, departure, guests } = {}) {
 }
 
 const files =
-  "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308";
-const generated = "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308";
+  "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308";
+const generated = "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308";
 
 // ---- De decksectie zelf -------------------------------------------------------------------
 
@@ -83,7 +83,7 @@ export const landingHero = {
       title: "Gezond van binnen, dan straal je van buiten.",
       text: "Een vetmassascan met je vetpercentage, uitgelegd door een bewegingsdeskundige, en een herstelchamber, fitness en infraroodsauna's erachter — allemaal ter plaatse, in één rustige plek om naar terug te keren.",
       image:
-        "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/e28aaf6d0_dxa.jpg",
+        "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/e28aaf6d0_dxa.jpg",
       visual: "dxa",
     },
     {
@@ -124,7 +124,7 @@ export const landingPillars = [
     tag: "COBBLES Gezondheid",
     text: "DXA-scans van je lichaamssamenstelling met persoonlijke feedback van bewegingsdeskundigen, en herstelexpertise ter plaatse.",
     image:
-      "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/0dc91a6d0_dxa2.jpg",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/0dc91a6d0_dxa2.jpg",
   },
   {
     title: "Performance",
@@ -189,7 +189,7 @@ export const landingExperiences = [
     title: "Performance Lab",
     text: "DXA-scans van je lichaamssamenstelling: een pijnloze analyse van zes minuten van vet, spier en bot, gevolgd door een persoonlijk gesprek met een bewegingsdeskundige.",
     image:
-      "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/bdff33f59_dxa5.jpg",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/bdff33f59_dxa5.jpg",
   },
   {
     title: "Health chamber",

@@ -19,7 +19,7 @@ export const concepts = [
     lead:
       "Een eigen ruimte op de locatie voor diagnostiek, testen en programma's onder begeleiding. De DXA-scan is het startpunt: een pijnloze analyse van vet, spier en bot, gevolgd door een persoonlijk gesprek met een bewegingsdeskundige.",
     image:
-      "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/bdff33f59_dxa5.jpg",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/bdff33f59_dxa5.jpg",
     imageAlt: "DXA-scanner in het Performance Lab",
     facts: [
       { value: "6 minuten", label: "Scantijd" },
@@ -74,7 +74,7 @@ export const concepts = [
     lead:
       "Sanctum — vandaag operationeel als de health chamber — is de herstelkamer van COBBLES: een normobare cabine waarin je een geoptimaliseerd mengsel van gassen inademt. Meer zuurstof op celniveau, voor sneller spierherstel, minder ontsteking en een grotere weerstand tegen vermoeidheid.",
     image:
-      "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/b43f09b45_landing_chamber.png",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/b43f09b45_landing_chamber.png",
     imageAlt: "De normobare health chamber",
     facts: [
       { value: "Normobaar", label: "Druk + zuurstof" },
@@ -125,7 +125,7 @@ export const concepts = [
     lead:
       "Ci.Ju is de keuken van de bestemming: tapas om te delen, klassiekers uit de Belgisch-Franse keuken en gerechten die in huis worden gemaakt, in een ontspannen bistro. Wat de streek op dat moment te bieden heeft, bepaalt wat er op tafel komt.",
     image:
-      "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/b42be3ab4_FB-001.png",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/b42be3ab4_FB-001.png",
     imageAlt: "Gerechten uit de keuken van Gastro Bar Ci.Ju",
     zoom: true,
     facts: [
@@ -172,7 +172,7 @@ export const concepts = [
     lead:
       "Een privé-wellnesservaring rond het enige dat echt schaars is: ongestoorde tijd samen. Geen publieke wellness met andere gasten, maar een eigen ruimte die op jouw moment klaarstaat.",
     image:
-      "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/a03813f35_generated_image.png",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/a03813f35_generated_image.png",
     imageAlt: "Private spa-ruimte met warmte en rust",
     facts: [
       { value: "Privé", label: "Exclusief gebruik" },
@@ -213,7 +213,7 @@ export const concepts = [
     lead:
       "Wellness in de vallei rond de bestemming: het groen, de stilte en het water van de Vlaamse Ardennen als deel van de ervaring. Waar gezondheid en beleving samenkomen.",
     image:
-      "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/ce76814a5_generated_image.png",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/ce76814a5_generated_image.png",
     imageAlt: "Wellness in het landschap van de Vlaamse Ardennen",
     facts: [
       { value: "Gezondheid × Beleving", label: "Pijlers" },

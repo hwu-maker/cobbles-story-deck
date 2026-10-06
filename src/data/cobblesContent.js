@@ -17,24 +17,24 @@ export const brand = {
 // gehost in de app. Al het overige is conceptbeeld in ontwikkeling — te vervangen door
 // definitieve professionele fotografie zodra die beschikbaar is.
 export const images = {
-  hero: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/a677757c1_generated_image.png",
+  hero: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/a677757c1_generated_image.png",
   destination:
-    "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/2515f2db5_generated_image.png",
+    "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/2515f2db5_generated_image.png",
   experience:
-    "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/e4d4ccd01_interior2.jpg",
+    "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/e4d4ccd01_interior2.jpg",
   region:
-    "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/e0b7ec5dd_kapelmuur.jpg",
+    "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/e0b7ec5dd_kapelmuur.jpg",
   // Landschap in plaats van kasseien voor sectie 09 — met naamsvermelding van de fotograaf.
   regionLandscape:
     "https://www.visitvlaamseardennen.be/sites/default/files/public/styles/page_header/public/2024-03/brakelbos_tijl_1.jpg?itok=2f1igDd6",
   regionLandscapeCredit: "Foto: Tijl De Meulemeester",
   // Echte beelden van de faciliteiten ter plaatse
-  lab: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/aa429f65c_landing_lab.jpg",
+  lab: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/aa429f65c_landing_lab.jpg",
   chamber:
-    "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/b43f09b45_landing_chamber.png",
-  gym: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/3df3be667_landing_gym.jpg",
+    "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/b43f09b45_landing_chamber.png",
+  gym: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/3df3be667_landing_gym.jpg",
   gastronomy:
-    "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/b42be3ab4_FB-001.png",
+    "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/b42be3ab4_FB-001.png",
 };
 
 export const contact = {
@@ -88,22 +88,22 @@ export const pillars = [
 ];
 
 export const pmcs = [
-  { id: "01", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/f7935bd8a_generated_image.png", pillar: "performance", title: "Performance-diagnostiek", tagline: "Begrijp je lichaam en volg je vooruitgang.", description: "Professionele analyse van lichaamssamenstelling, beweging en capaciteit — de basis van elk programma dat rond jou wordt gebouwd.", line: "COBBLES Performance" },
-  { id: "02", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/7f1183317_generated_image.png", pillar: "performance", title: "Persoonlijke coaching", tagline: "Train met begeleiding die rond jouw doelen is gebouwd.", description: "Coaching van mens tot mens die zich aanpast aan jouw niveau, agenda en ambitie — gestructureerd, persoonlijk en met opvolging.", line: "COBBLES Performance" },
-  { id: "03", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/521b16a79_generated_image.png", pillar: "performance", title: "Wielerbeleving", tagline: "Rijd de legendarische wegen met professionele ondersteuning.", description: "Begeleide ritten over de kasseien en hellingen van de Vlaamse Ardennen, met lokale kennis en volledige ondersteuning.", line: "COBBLES Performance" },
-  { id: "04", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/12b4ec1a3_generated_image.png", pillar: "performance", title: "Executive performance", tagline: "Een gerichte retreat om te resetten, te presteren en te herstellen.", description: "Intensieve, tijdbesparende programma's voor wie weinig tijd heeft en resultaat wil.", line: "COBBLES Performance" },
-  { id: "05", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/dd9a9b0b0_generated_image.png", pillar: "health", title: "Vitaliteitssessies", tagline: "Een persoonlijke aanpak van vitaliteit en welzijn.", description: "Begeleide sessies rond herstel, energie en veerkracht — afgestemd op jouw behoeften en ritme.", line: "COBBLES Herstel" },
-  { id: "06", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/1aa3adb07_generated_image.png", pillar: "health", title: "Gezondheidsconsult", tagline: "Professionele begeleiding voor je gezondheid op lange termijn.", description: "Een consult dat je laat begrijpen waar je staat en waar de focus hoort — helder, persoonlijk en geloofwaardig.", line: "COBBLES Gezondheid" },
-  { id: "07", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/ed446a387_generated_image.png", pillar: "health", title: "Herstelverblijf", tagline: "Rust en herstel in een kalme, rustgevende omgeving.", description: "Verblijven gebouwd rond rust en herstel — de ruimte en begeleiding om echt te recupereren.", line: "COBBLES Herstel" },
-  { id: "08", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/a53662eea_generated_image.png", pillar: "performance", title: "Kracht & conditie", tagline: "Bouw veerkracht en kracht met gestructureerde programma's.", description: "Krachttraining onder begeleiding, als duurzame basis voor performance én het dagelijkse leven.", line: "COBBLES Performance" },
-  { id: "09", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/d5e5438d6_generated_image.png", pillar: "health", title: "Gezondheid voor het hele gezin", tagline: "Zorg die het welzijn van het hele gezin ondersteunt.", description: "Programma's die elke generatie meenemen — zodat herstel en gezondheid gedeeld zijn, niet alleen.", line: "COBBLES Gezondheid" },
-  { id: "10", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/9fccc5f71_generated_image.png", pillar: "health", title: "Fysiotherapie & revalidatie", tagline: "Beweeg opnieuw vrij met professionele revalidatie.", description: "Persoonlijke revalidatie die beweging, vertrouwen en kracht herstelt.", line: "COBBLES Herstel" },
-  { id: "11", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/74848d0d2_generated_image.png", pillar: "experiences", title: "Gastro Bar Ci.Ju", tagline: "Seizoensgebonden keuken met de streek als basis.", description: "Een gastvrije tafel waar seizoensgebonden, regionale gerechten mensen samenbrengen — ontspannen en rijkelijk.", line: "COBBLES Beleving" },
-  { id: "12", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/a03813f35_generated_image.png", pillar: "health", title: "Privéspa", tagline: "Een privé-wellnesservaring rond tijd voor elkaar.", description: "Exclusief gebruik van een privéspa — de ruimte, warmte en rust om te ontspannen op jouw voorwaarden.", line: "COBBLES Wellness" },
-  { id: "13", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/ce76814a5_generated_image.png", pillar: ["health", "experiences"], title: "Vallei-wellness", tagline: "Wellness waarin gezondheid en beleving samenkomen.", description: "Wellness in het landschap — een ervaring die het lichaam herstelt en de geest opheft.", line: "COBBLES Wellness" },
-  { id: "14", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/9175d8cb1_generated_image.png", pillar: "experiences", title: "E-bike & natuur", tagline: "Ontdek de Vlaamse Ardennen op je eigen tempo.", description: "E-bikeroutes door de heuvels en dorpen van de streek — vrijheid, natuur en ontdekking.", line: "COBBLES Beleving" },
-  { id: "15", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/47cce4aae_generated_image.png", pillar: "experiences", title: "COBBLES Verblijf", tagline: "Blijf overnachten en ervaar COBBLES volledig.", description: "Comfortabel en doordacht verblijf waarin je alles van de bestemming kunt combineren.", line: "COBBLES Verblijf" },
-  { id: "16", image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/1f65d5918_generated_image.png", pillar: "health", title: "Voeding & levensstijl", tagline: "Duurzame gewoontes voor blijvende vitaliteit.", description: "Praktische begeleiding rond voeding en dagelijkse gewoontes — kleine veranderingen die zich opstapelen tot blijvende energie.", line: "COBBLES Gezondheid" },
+  { id: "01", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/f7935bd8a_generated_image.png", pillar: "performance", title: "Performance-diagnostiek", tagline: "Begrijp je lichaam en volg je vooruitgang.", description: "Professionele analyse van lichaamssamenstelling, beweging en capaciteit — de basis van elk programma dat rond jou wordt gebouwd.", line: "COBBLES Performance" },
+  { id: "02", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/7f1183317_generated_image.png", pillar: "performance", title: "Persoonlijke coaching", tagline: "Train met begeleiding die rond jouw doelen is gebouwd.", description: "Coaching van mens tot mens die zich aanpast aan jouw niveau, agenda en ambitie — gestructureerd, persoonlijk en met opvolging.", line: "COBBLES Performance" },
+  { id: "03", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/521b16a79_generated_image.png", pillar: "performance", title: "Wielerbeleving", tagline: "Rijd de legendarische wegen met professionele ondersteuning.", description: "Begeleide ritten over de kasseien en hellingen van de Vlaamse Ardennen, met lokale kennis en volledige ondersteuning.", line: "COBBLES Performance" },
+  { id: "04", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/12b4ec1a3_generated_image.png", pillar: "performance", title: "Executive performance", tagline: "Een gerichte retreat om te resetten, te presteren en te herstellen.", description: "Intensieve, tijdbesparende programma's voor wie weinig tijd heeft en resultaat wil.", line: "COBBLES Performance" },
+  { id: "05", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/dd9a9b0b0_generated_image.png", pillar: "health", title: "Vitaliteitssessies", tagline: "Een persoonlijke aanpak van vitaliteit en welzijn.", description: "Begeleide sessies rond herstel, energie en veerkracht — afgestemd op jouw behoeften en ritme.", line: "COBBLES Herstel" },
+  { id: "06", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/1aa3adb07_generated_image.png", pillar: "health", title: "Gezondheidsconsult", tagline: "Professionele begeleiding voor je gezondheid op lange termijn.", description: "Een consult dat je laat begrijpen waar je staat en waar de focus hoort — helder, persoonlijk en geloofwaardig.", line: "COBBLES Gezondheid" },
+  { id: "07", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/ed446a387_generated_image.png", pillar: "health", title: "Herstelverblijf", tagline: "Rust en herstel in een kalme, rustgevende omgeving.", description: "Verblijven gebouwd rond rust en herstel — de ruimte en begeleiding om echt te recupereren.", line: "COBBLES Herstel" },
+  { id: "08", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/a53662eea_generated_image.png", pillar: "performance", title: "Kracht & conditie", tagline: "Bouw veerkracht en kracht met gestructureerde programma's.", description: "Krachttraining onder begeleiding, als duurzame basis voor performance én het dagelijkse leven.", line: "COBBLES Performance" },
+  { id: "09", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/d5e5438d6_generated_image.png", pillar: "health", title: "Gezondheid voor het hele gezin", tagline: "Zorg die het welzijn van het hele gezin ondersteunt.", description: "Programma's die elke generatie meenemen — zodat herstel en gezondheid gedeeld zijn, niet alleen.", line: "COBBLES Gezondheid" },
+  { id: "10", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/9fccc5f71_generated_image.png", pillar: "health", title: "Fysiotherapie & revalidatie", tagline: "Beweeg opnieuw vrij met professionele revalidatie.", description: "Persoonlijke revalidatie die beweging, vertrouwen en kracht herstelt.", line: "COBBLES Herstel" },
+  { id: "11", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/74848d0d2_generated_image.png", pillar: "experiences", title: "Gastro Bar Ci.Ju", tagline: "Seizoensgebonden keuken met de streek als basis.", description: "Een gastvrije tafel waar seizoensgebonden, regionale gerechten mensen samenbrengen — ontspannen en rijkelijk.", line: "COBBLES Beleving" },
+  { id: "12", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/a03813f35_generated_image.png", pillar: "health", title: "Privéspa", tagline: "Een privé-wellnesservaring rond tijd voor elkaar.", description: "Exclusief gebruik van een privéspa — de ruimte, warmte en rust om te ontspannen op jouw voorwaarden.", line: "COBBLES Wellness" },
+  { id: "13", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/ce76814a5_generated_image.png", pillar: ["health", "experiences"], title: "Vallei-wellness", tagline: "Wellness waarin gezondheid en beleving samenkomen.", description: "Wellness in het landschap — een ervaring die het lichaam herstelt en de geest opheft.", line: "COBBLES Wellness" },
+  { id: "14", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/9175d8cb1_generated_image.png", pillar: "experiences", title: "E-bike & natuur", tagline: "Ontdek de Vlaamse Ardennen op je eigen tempo.", description: "E-bikeroutes door de heuvels en dorpen van de streek — vrijheid, natuur en ontdekking.", line: "COBBLES Beleving" },
+  { id: "15", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/47cce4aae_generated_image.png", pillar: "experiences", title: "COBBLES Verblijf", tagline: "Blijf overnachten en ervaar COBBLES volledig.", description: "Comfortabel en doordacht verblijf waarin je alles van de bestemming kunt combineren.", line: "COBBLES Verblijf" },
+  { id: "16", image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/1f65d5918_generated_image.png", pillar: "health", title: "Voeding & levensstijl", tagline: "Duurzame gewoontes voor blijvende vitaliteit.", description: "Praktische begeleiding rond voeding en dagelijkse gewoontes — kleine veranderingen die zich opstapelen tot blijvende energie.", line: "COBBLES Gezondheid" },
 ];
 
 // De beleving is leidend; COBBLES staat klein als endorsement boven de naam.
@@ -112,31 +112,31 @@ export const productLines = [
     id: "performance",
     label: "Performance",
     description: "Diagnostiek, coaching, training en wielrennen — voor meetbare vooruitgang.",
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/f7935bd8a_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/f7935bd8a_generated_image.png",
   },
   {
     id: "health",
     label: "Gezondheid",
     description: "Consult en begeleiding rond levensstijl voor vitaliteit op lange termijn.",
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/1aa3adb07_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/1aa3adb07_generated_image.png",
   },
   {
     id: "recovery",
     label: "Herstel",
     description: "Herstelverblijven, revalidatie en vitaliteitssessies.",
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/ed446a387_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/ed446a387_generated_image.png",
   },
   {
     id: "wellness",
     label: "Wellness",
     description: "Privéspa en immersieve wellness in de natuur.",
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/a03813f35_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/a03813f35_generated_image.png",
   },
   {
     id: "stay",
     label: "Verblijf",
     description: "Overnachtingen waarmee je COBBLES volledig ervaart.",
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/47cce4aae_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/47cce4aae_generated_image.png",
   },
   {
     id: "experiences",
@@ -206,7 +206,7 @@ export const arrangements = [
     ],
     featured: true,
     image:
-      "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/f7935bd8a_generated_image.png",
+      "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/f7935bd8a_generated_image.png",
   },
   {
     name: "Cobbles Week",
@@ -219,7 +219,7 @@ export const arrangements = [
       "Herstelsessie in de health chamber",
     ],
     featured: true,
-    image: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/e0b7ec5dd_kapelmuur.jpg",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/e0b7ec5dd_kapelmuur.jpg",
   },
   {
     name: "Samen Herstellen",
@@ -232,7 +232,7 @@ export const arrangements = [
       "Begeleiding afgestemd op het gezin",
     ],
     featured: true,
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/ed446a387_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/ed446a387_generated_image.png",
   },
   {
     name: "Vallei-uitstap",
@@ -244,7 +244,7 @@ export const arrangements = [
       "Diner bij Gastro Bar Ci.Ju",
       "Routes van Cycling in Flanders",
     ],
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/9175d8cb1_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/9175d8cb1_generated_image.png",
   },
   {
     name: "Executive Reset",
@@ -256,7 +256,7 @@ export const arrangements = [
       "Vergaderruimte en keuken",
       "Vallei-wellness",
     ],
-    image: "https://media.db.com/images/public/6ac2337be23d3a71e0f5c308/12b4ec1a3_generated_image.png",
+    image: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/12b4ec1a3_generated_image.png",
   },
 ];
 
@@ -292,11 +292,11 @@ export const referenceQuote = {
 export const referenceListings = [
   {
     name: "Visit Flanders",
-    logo: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/761709e7b_visitflanders.svg",
+    logo: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/761709e7b_visitflanders.svg",
   },
   {
     name: "Cycling in Flanders",
-    logo: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/6d5be08e5_cyclinginflanders.svg",
+    logo: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/6d5be08e5_cyclinginflanders.svg",
   },
 ];
 
@@ -330,25 +330,25 @@ export const existingPartners = [
     name: "Soudal Quick-Step",
     role: "UCI WorldTeam",
     note: "Elite-team verbonden aan de bestemming.",
-    logo: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/0682dd62c_soudal-quick-step.png",
+    logo: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/0682dd62c_soudal-quick-step.png",
   },
   {
     name: "Shimano",
     role: "Componenten",
     note: "Materiaalpartnership.",
-    logo: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/7a978b6b2_shimano.svg",
+    logo: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/7a978b6b2_shimano.svg",
   },
   {
     name: "Specialized",
     role: "Fietsen",
     note: "Fiets- en rennerspartnership.",
-    logo: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/ed909cbdb_specialized.svg",
+    logo: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/ed909cbdb_specialized.svg",
   },
   {
     name: "Normocare",
     role: "Sportzorg & herstel",
     note: "Zorg- en herstelexpertise ter plaatse.",
-    logo: "https://db.app/api/apps/6ac2337be23d3a71e0f5c308/files/mp/public/6ac2337be23d3a71e0f5c308/da0cfaec1_normocare.png",
+    logo: "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/da0cfaec1_normocare.png",
   },
 ];
 
