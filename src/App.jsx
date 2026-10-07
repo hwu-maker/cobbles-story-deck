@@ -1,18 +1,22 @@
 import { Toaster } from "@/components/ui/toaster"
 import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import PageNotFound from './lib/PageNotFound';
 import { AuthProvider, useAuth } from '@/lib/AuthContext';
 import UserNotRegisteredError from '@/components/UserNotRegisteredError';
 import ScrollToTop from './components/ScrollToTop';
 import FloatingMeritsaMark from '@/components/cobbles/FloatingMeritsaMark';
+import RequireAccess from './components/RequireAccess';
 // Add page imports here
 import Presentation from './pages/Presentation';
 import Concept from './pages/Concept';
+import FrontDoor from './pages/FrontDoor';
+import GuestSite from './pages/GuestSite';
 
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
+  const location = useLocation();
 
   // Show loading spinner while checking app public settings or auth
   if (isLoadingPublicSettings || isLoadingAuth) {
@@ -36,12 +40,16 @@ const AuthenticatedApp = () => {
 
   // Render the main app
   return (
-    <Routes>
-      {/* Add your page Route elements here */}
-      <Route path="/" element={<Presentation />} />
-      <Route path="/concept/:slug" element={<Concept />} />
-      <Route path="*" element={<PageNotFound />} />
-    </Routes>
+    <>
+      {location.pathname !== "/" && <FloatingMeritsaMark />}
+      <Routes>
+        <Route path="/" element={<FrontDoor />} />
+        <Route path="/concept" element={<RequireAccess><Presentation /></RequireAccess>} />
+        <Route path="/site" element={<RequireAccess><GuestSite /></RequireAccess>} />
+        <Route path="/concept/:slug" element={<RequireAccess><Concept /></RequireAccess>} />
+        <Route path="*" element={<PageNotFound />} />
+      </Routes>
+    </>
   );
 };
 
@@ -52,7 +60,6 @@ function App() {
       <QueryClientProvider client={queryClientInstance}>
         <Router>
           <ScrollToTop />
-          <FloatingMeritsaMark />
           <AuthenticatedApp />
         </Router>
         <Toaster />

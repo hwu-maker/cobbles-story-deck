@@ -5,8 +5,8 @@ const db = globalThis.__B44_DB__ || { auth:{ isAuthenticated: async()=>false, me
 
 export const brand = {
   name: "COBBLES",
-  baseline: "Gezondheid. Performance. Beleving.",
-  tagline: "Een bestemming voor een betere manier van leven.",
+  slogan: "THE ART OF BALANCE",
+  baseline: "Vitality. Performance. Re-Source.",
   promise:
     "COBBLES brengt gezondheid, performance en betekenisvolle beleving samen op één bestemming.",
   positioning:

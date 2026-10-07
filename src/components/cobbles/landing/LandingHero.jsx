@@ -21,20 +21,40 @@ export default function LandingHero({ stay, onChange, href }) {
 
   return (
     <section id="lp-top">
-      <div className="relative h-[62vh] min-h-[420px] max-h-[620px] overflow-hidden bg-cobbles-charcoal">
-        {slides.map((item, i) => (
-          <Image
-            key={item.id}
-            src={item.image}
-            alt={item.title}
-            fittingType="fill"
-            focalPointX={item.focalPointX}
-            focalPointY={item.focalPointY}
-            className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
-              i === index ? "opacity-100" : "opacity-0"
-            }`}
-          />
-        ))}
+      <div className="relative h-[62vh] min-h-[540px] lg:max-h-[620px] overflow-hidden bg-cobbles-charcoal">
+        {slides.map((item, i) => {
+          const mediaClass = `absolute inset-0 w-full h-full object-cover transition-opacity duration-1000 ${
+            i === index ? "opacity-100" : "opacity-0"
+          }`;
+
+          if (item.video) {
+            return (
+              <video
+                key={item.id}
+                src={item.video}
+                poster={item.image}
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                className={mediaClass}
+              />
+            );
+          }
+
+          return (
+            <Image
+              key={item.id}
+              src={item.image}
+              alt={item.title}
+              fittingType="fill"
+              focalPointX={item.focalPointX}
+              focalPointY={item.focalPointY}
+              className={mediaClass}
+            />
+          );
+        })}
         <div className="absolute inset-0 bg-gradient-to-t from-cobbles-charcoal/95 via-cobbles-charcoal/55 to-cobbles-charcoal/25" />
 
         <div className="relative h-full max-w-6xl mx-auto px-5 lg:px-8 flex flex-col justify-end pb-16 lg:pb-20">

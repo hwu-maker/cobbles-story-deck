@@ -84,6 +84,8 @@ export const landingHero = {
       text: "Een vetmassascan met je vetpercentage, uitgelegd door een bewegingsdeskundige, en een herstelchamber, fitness en infraroodsauna's erachter — allemaal ter plaatse, in één rustige plek om naar terug te keren.",
       image:
         "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/e28aaf6d0_dxa.jpg",
+      // Bewegend beeld voor deze pijler — Pixabay, rechtenvrij (Couple, massage, wellness).
+      video: "https://cdn.pixabay.com/video/2023/07/21/172687-849651731_medium.mp4",
       visual: "dxa",
     },
     {

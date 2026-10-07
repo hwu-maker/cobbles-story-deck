@@ -4,7 +4,7 @@ import { Image } from "@/components/ui/image";
 
 export default function ConceptHero({ concept }) {
   return (
-    <header className="relative h-[52vh] min-h-[380px] overflow-hidden bg-cobbles-charcoal">
+    <header className="relative h-[52vh] min-h-[520px] sm:min-h-[440px] lg:min-h-[380px] overflow-hidden bg-cobbles-charcoal">
       <Image
         src={concept.image}
         alt={concept.imageAlt || concept.label}
@@ -13,10 +13,10 @@ export default function ConceptHero({ concept }) {
       />
       <div className="absolute inset-0 bg-gradient-to-t from-cobbles-charcoal via-cobbles-charcoal/70 to-cobbles-charcoal/30" />
 
-      <div className="relative h-full max-w-6xl mx-auto px-6 lg:px-10 py-8 flex flex-col justify-between">
+      <div className="relative h-full max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 flex flex-col justify-between">
         <div className="flex items-center justify-between gap-4">
           <Link
-            to="/"
+            to="/concept"
             className="inline-flex items-center gap-2 text-[11px] tracking-[0.2em] uppercase text-white/70 hover:text-white transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />

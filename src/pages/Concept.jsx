@@ -17,7 +17,7 @@ export default function Concept() {
             Dit concept bestaat niet.
           </p>
           <Link
-            to="/"
+            to="/concept"
             className="mt-5 inline-block text-sm text-cobbles-copper hover:text-cobbles-copper-light transition-colors"
           >
             Terug naar de presentatie
@@ -39,7 +39,7 @@ export default function Concept() {
       <div className="border-t border-cobbles-stone/30">
         <div className="max-w-6xl mx-auto px-6 lg:px-10 py-10 flex flex-wrap items-center justify-between gap-4">
           <Link
-            to="/"
+            to="/concept"
             className="inline-flex items-center gap-2 text-[11px] tracking-[0.2em] uppercase text-cobbles-charcoal/55 hover:text-cobbles-copper transition-colors"
           >
             <ArrowLeft className="w-4 h-4" />

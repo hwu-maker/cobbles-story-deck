@@ -13,7 +13,7 @@ export default function LandingTrustStrip() {
           </footer>
         </blockquote>
 
-        <div className="grid grid-cols-3 gap-6">
+        <div className="grid grid-cols-3 gap-4 sm:gap-6">
           {landingRatings.map((rating) => (
             <div key={rating.source}>
               <p className="font-display font-light text-3xl lg:text-4xl text-white">

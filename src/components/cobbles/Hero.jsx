@@ -32,17 +32,17 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 text-white/90 tracking-[0.2em] uppercase text-xs sm:text-sm font-light"
+          className="mt-7 font-display text-white text-xl sm:text-2xl lg:text-3xl font-light tracking-[0.18em] uppercase cobbles-text-balance"
         >
-          {brand.baseline}
+          {brand.slogan}
         </motion.p>
         <motion.p
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-10 text-white/85 text-lg sm:text-xl lg:text-2xl font-light leading-relaxed max-w-2xl mx-auto cobbles-text-balance"
+          className="mt-5 text-white/85 tracking-[0.2em] uppercase text-xs sm:text-sm font-light"
         >
-          {brand.tagline}
+          {brand.baseline}
         </motion.p>
       </div>
 

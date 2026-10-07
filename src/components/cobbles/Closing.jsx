@@ -13,13 +13,13 @@ export default function Closing() {
           </span>
         </Reveal>
         <Reveal delay={0.1}>
-          <p className="mt-6 text-sm tracking-[0.25em] uppercase text-cobbles-copper-light">
-            {brand.baseline}
+          <p className="mt-7 font-display text-xl lg:text-3xl font-light tracking-[0.18em] uppercase text-white cobbles-text-balance">
+            {brand.slogan}
           </p>
         </Reveal>
         <Reveal delay={0.2}>
-          <p className="mt-10 text-xl lg:text-2xl font-light text-white/80 leading-relaxed cobbles-text-balance max-w-2xl mx-auto">
-            {brand.tagline}
+          <p className="mt-5 text-sm tracking-[0.25em] uppercase text-cobbles-copper-light">
+            {brand.baseline}
           </p>
         </Reveal>
         <Reveal delay={0.3}>
