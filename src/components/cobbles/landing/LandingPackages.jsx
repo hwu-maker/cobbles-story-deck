@@ -10,7 +10,7 @@ export default function LandingPackages({ href }) {
           Arrangementen
         </span>
         <h2 className="mt-4 font-display font-light text-2xl sm:text-3xl lg:text-4xl text-cobbles-charcoal max-w-2xl leading-[1.15]">
-          Verblijven rond wat je komt doen.
+          Een verblijf dat past bij wat je komt doen.
         </h2>
         <p className="mt-5 text-cobbles-charcoal/70 font-light leading-relaxed max-w-2xl">
           Vier arrangementen die een appartement combineren met wat vandaag al boekbaar is ter plaatse —

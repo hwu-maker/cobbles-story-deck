@@ -53,7 +53,7 @@ export default function LandingExperiences({ href }) {
               Toevoegen aan je verblijf
             </span>
             <h3 className="mt-3 font-display font-light text-xl text-white leading-snug">
-              Alles kan aan je boeking worden toegevoegd.
+              Voeg het toe aan je verblijf.
             </h3>
             <p className="mt-2 text-sm text-white/60 font-light leading-relaxed">
               Kies je extra's in de volgende stap van het boekingssysteem — wij bevestigen de tijden met

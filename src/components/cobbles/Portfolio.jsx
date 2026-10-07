@@ -98,7 +98,7 @@ export default function Portfolio() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="font-display font-light text-3xl sm:text-4xl lg:text-5xl text-cobbles-charcoal mt-6 leading-[1.15]">
-              Zestien product-marktcombinaties. Eén samenhangend portfolio.
+              Zestien aanbiedingen. Eén samenhangend aanbod.
             </h2>
           </Reveal>
           <Reveal delay={0.2}>

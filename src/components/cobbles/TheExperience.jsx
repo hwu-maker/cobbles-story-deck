@@ -3,8 +3,8 @@ import { Image } from "@/components/ui/image";
 import { images } from "@/data/cobblesContent";
 
 const qualities = [
-  { label: "Rust", text: "Een tempo waarin je kunt ademen en aanwezig zijn." },
-  { label: "Doordacht", text: "Elk detail met intentie gekozen." },
+  { label: "Rust", text: "Een tempo waarin je kunt ademen en er echt bent." },
+  { label: "Doordacht", text: "Elk detail met zorg gekozen." },
   { label: "Zelfverzekerd", text: "Expertise die je kunt vertrouwen, zonder pretentie." },
 ];
 
@@ -21,7 +21,7 @@ export default function TheExperience() {
             </Reveal>
             <Reveal delay={0.1}>
               <h2 className="font-display font-light text-3xl sm:text-4xl lg:text-5xl mt-6 leading-[1.15]">
-                Professioneel maar toegankelijk. Premium maar niet elitair. Natuurlijk maar hedendaags.
+                Vakkundig, en toch toegankelijk. Verzorgd, zonder elitair te zijn. Geworteld in de natuur, en van deze tijd.
               </h2>
             </Reveal>
             <Reveal delay={0.2}>

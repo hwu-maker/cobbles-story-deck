@@ -15,7 +15,7 @@ export default function Partnerships() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="font-display font-light text-3xl sm:text-4xl lg:text-5xl text-white mt-6 leading-[1.15]">
-              Partnerships zijn hoe COBBLES groeit.
+              COBBLES groeit via partnerships.
             </h2>
           </Reveal>
           <Reveal delay={0.2}>

@@ -20,7 +20,7 @@ const iconen = {
 export default function SocialChannels() {
   return (
     <div className="mt-12">
-      <p className="text-xs tracking-[0.2em] uppercase text-white/40">Volg de bestemming</p>
+      <p className="text-xs tracking-[0.2em] uppercase text-white/40">Volg ons</p>
       <div className="mt-6 flex flex-wrap items-center gap-x-9 gap-y-4">
         {socialChannels.map((kanaal) => {
           const Icoon = iconen[kanaal.id];

@@ -14,7 +14,7 @@ export default function LandingFaq() {
           Goed om te weten
         </span>
         <h2 className="mt-4 font-display font-light text-2xl sm:text-3xl lg:text-4xl text-cobbles-charcoal leading-[1.15]">
-          Vragen, beantwoord vóór je boekt.
+          Antwoorden, voor je boekt.
         </h2>
 
         <Accordion type="single" collapsible className="mt-8">

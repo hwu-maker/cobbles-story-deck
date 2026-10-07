@@ -61,7 +61,7 @@ export default function LandingClosing({ href }) {
               Beste tarief bij rechtstreeks boeken.
             </p>
             <p className="mt-1 text-xs text-white/30 font-light">
-              Reserveringen verlopen via RoomRaccoon.
+              Je reserveert via RoomRaccoon.
             </p>
           </div>
         </div>

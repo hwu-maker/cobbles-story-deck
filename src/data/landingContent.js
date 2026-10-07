@@ -39,31 +39,31 @@ export const landingSection = {
   eyebrow: "11 — De Gastenpagina",
   title: "Wat de gast als eerste ziet.",
   intro:
-    "De presentatie zet de visie neer. Dit is hoe die boekingen wordt: één snelle consumentenpagina — met de belevingen en arrangementen die vandaag alleen in het boekingssysteem zitten naar voren gehaald op de site, en de reservatie die wordt doorgegeven aan datzelfde systeem.",
+    "De presentatie zet de visie neer. Zo wordt die visie een boeking: een snelle pagina voor de gast. Belevingen en arrangementen die nu alleen in het boekingssysteem zitten, staan vooraan. De reservatie gaat naar datzelfde systeem.",
   principles: [
     {
-      title: "Boekingsbalk boven de vouw",
+      title: "Boekingsbalk meteen in beeld",
       detail:
-        "Data en gasten staan direct onder de belofte, zodat het eerste wat een gast kan doen beschikbaarheid checken is.",
+        "Aankomst, vertrek en aantal gasten staan meteen onder de belofte. Het eerste wat een gast doet, is beschikbaarheid checken.",
     },
     {
       title: "Beste tarief bij rechtstreeks boeken, vooraan gezegd",
       detail:
-        "Het voordeel van hier boeken — beste tarief, geen boekingskosten — wordt geclaimd vóór enige twijfel kan ontstaan.",
+        "Het voordeel van hier boeken — beste tarief, geen boekingskosten — staat meteen vooraan, nog voor de twijfel komt.",
     },
     {
       title: "De drie pijlers als reden om te kiezen",
       detail:
-        "Gezondheid, performance en beleving zijn het onderscheid, dus ze staan vóór de kamers.",
+        "Gezondheid, performance en beleving maken het verschil. Daarom staan ze vóór de kamers.",
     },
     {
       title: "Belevingen en arrangementen op de pagina",
       detail:
-        "Diagnostiek, de health chamber, de fitnessruimte en het rijden worden hier verkocht — niet pas ontdekt bij het afrekenen.",
+        "Diagnostiek, de health chamber, de fitnessruimte en de ritten staan hier — niet pas bij het afrekenen.",
     },
   ],
   cta: "Open de live pagina",
-  note: "Alles op de pagina werkt: de datums voeden het boekingssysteem, de navigatie scrolt, de FAQ opent, en elke boekingsknop opent het bestaande RoomRaccoon-systeem in een nieuw tabblad.",
+  note: "Alles op de pagina werkt: de gekozen datums gaan mee naar het boekingssysteem, de navigatie scrolt, de FAQ opent, en elke boekingsknop opent RoomRaccoon in een nieuw tabblad.",
 };
 
 // ---- De landingspagina zelf ---------------------------------------------------------------
@@ -80,8 +80,8 @@ export const landingHero = {
       id: "health",
       tab: "Gezondheid & Herstel",
       tag: "COBBLES Gezondheid & Herstel",
-      title: "Gezond van binnen, dan straal je van buiten.",
-      text: "Een vetmassascan met je vetpercentage, uitgelegd door een bewegingsdeskundige, en een herstelchamber, fitness en infraroodsauna's erachter — allemaal ter plaatse, in één rustige plek om naar terug te keren.",
+      title: "Gezond van binnen. Dat zie je van buiten.",
+      text: "Een vetmassascan met je vetpercentage, uitgelegd door een bewegingsdeskundige. Daarna de herstelchamber, de fitness en de infraroodsauna’s. Alles ter plaatse, op een rustige plek waar je graag terugkomt.",
       image:
         "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/e28aaf6d0_dxa.jpg",
       // Bewegend beeld voor deze pijler — Pixabay, rechtenvrij (Couple, massage, wellness).
@@ -92,16 +92,16 @@ export const landingHero = {
       id: "performance",
       tab: "Performance",
       tag: "COBBLES Performance",
-      title: "Rijd de kasseien. Meet wat het waard is.",
-      text: "De Kapelmuur en de wegen van de Ronde van Vlaanderen starten bij de deur, met een werkplaats, afgesloten fietsenstalling en een performance lab erachter — voor renners en teams die vooruitgang zoeken.",
+      title: "Rijd de kasseien. Meet wat het oplevert.",
+      text: "De Kapelmuur en de wegen van de Ronde van Vlaanderen beginnen bij de deur. Werkplaats, afgesloten fietsenstalling en performance lab staan klaar, voor renners en teams die vooruit willen.",
       image: `${files}/e0b7ec5dd_kapelmuur.jpg`,
     },
     {
       id: "experiences",
       tab: "Beleving",
       tag: "COBBLES Beleving",
-      title: "Rij uit, eet goed, slaap ertussen.",
-      text: "Gastrobar Ci-Ju van moeder en dochter Cindy en Justine, een terras in de vallei, en de dorpen en musea van de Vlaamse Ardennen — voor gasten die voor de mooie dingen komen.",
+      title: "Fiets de streek, proef gastronomisch, slaap in een heerlijk bed.",
+      text: "Gastrobar Ci-Ju, van moeder en dochter Cindy en Justine. Een terras in de vallei, en de dorpen en musea van de Vlaamse Ardennen.",
       image: `${generated}/6eeccd4f9_FB-002.png`,
       focalPointX: 0.5,
       focalPointY: 0.58,
@@ -124,7 +124,7 @@ export const landingPillars = [
   {
     title: "Gezondheid & Herstel",
     tag: "COBBLES Gezondheid",
-    text: "DXA-scans van je lichaamssamenstelling met persoonlijke feedback van bewegingsdeskundigen, en herstelexpertise ter plaatse.",
+    text: "Een DXA-scan van je lichaamssamenstelling, met persoonlijke feedback van bewegingsdeskundigen. En herstel, ter plaatse.",
     image:
       "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/0dc91a6d0_dxa2.jpg",
   },
@@ -148,7 +148,7 @@ export const landingRooms = [
     spec: "Tuinzicht & terras · ca. 67 m² · 2–3 gasten",
     price: "Vanaf €180",
     detail:
-      "Eén slaapkamer met twijfelaar of tweepersoonsbedden, een volledig uitgeruste keuken, een moderne badkamer en een stijlvolle leefruimte. De zetel wordt omgevormd tot een extra bed.",
+      "Eén slaapkamer met twijfelaar of tweepersoonsbedden, een volledig uitgeruste keuken, een moderne badkamer en een stijlvolle leefruimte. De zetel wordt een extra bed.",
     features: ["Volledige keuken", "Terras", "Slaapzetel"],
     image: `${files}/ff9c6c9c2_landing_room_twin.jpg`,
   },
@@ -189,13 +189,13 @@ export const landingFacilities = [
 export const landingExperiences = [
   {
     title: "Performance Lab",
-    text: "DXA-scans van je lichaamssamenstelling: een pijnloze analyse van zes minuten van vet, spier en bot, gevolgd door een persoonlijk gesprek met een bewegingsdeskundige.",
+    text: "DXA-scan van je lichaamssamenstelling. Zes minuten, pijnloos: vet, spier en bot in kaart, daarna een gesprek met een bewegingsdeskundige.",
     image:
       "https://media.base44.com/images/public/6ac2337be23d3a71e0f5c308/bdff33f59_dxa5.jpg",
   },
   {
     title: "Health chamber",
-    text: "Normobare zuurstoftherapie in een drukcabine — meer zuurstof naar de weefsels voor sneller herstel en minder ontsteking.",
+    text: "Normobare zuurstoftherapie in een drukcabine. Meer zuurstof naar je weefsels, voor sneller herstel en minder ontsteking.",
     image: `${files}/b43f09b45_landing_chamber.png`,
   },
   {
@@ -205,13 +205,13 @@ export const landingExperiences = [
   },
   {
     title: "Restaurant Ci-Ju",
-    text: "Tapas, Belgisch-Franse klassiekers en huisbereide gerechten in een ontspannen bistro. Reservatie vooraf vereist.",
+    text: "Tapas, Belgisch-Franse klassiekers en huisbereide gerechten in een ontspannen bistro. Reserveer vooraf.",
     image: `${generated}/b42be3ab4_FB-001.png`,
     zoom: true, // snijdt de galerij-UI aan de rand van de bronfoto weg
   },
   {
     title: "De klassiekers, vanaf de deur",
-    text: "De Kapelmuur en de wegen van de Ronde van Vlaanderen starten bij de accommodatie. Rijd het parcours van de profs, of volg de bewegwijzerde routes van de streek.",
+    text: "De Kapelmuur en de wegen van de Ronde van Vlaanderen beginnen bij de deur. Rijd het parcours van de profs, of volg de bewegwijzerde routes van de streek.",
     image: `${files}/e0b7ec5dd_kapelmuur.jpg`,
   },
 ];
@@ -221,7 +221,7 @@ export const landingPackages = [
   {
     name: "Het Performance-pad",
     duration: "3 nachten",
-    text: "Meten, trainen en herstellen — een volledige boog voor renners die vooruitgang willen zien.",
+    text: "Meten, trainen en herstellen. Voor renners die hun vooruitgang willen zien.",
     includes: [
       "DXA-scan met persoonlijk gesprek door een bewegingsdeskundige",
       "Twee begeleide ritten over de wegen van de Ronde van Vlaanderen",
@@ -243,7 +243,7 @@ export const landingPackages = [
   {
     name: "De Natuur-uitstap",
     duration: "2 nachten",
-    text: "Fietsen in de ochtend, lekker eten in de avond, slapen ertussen.",
+    text: "Fietsen in de ochtend, goed eten in de avond, slapen in een heerlijk bed.",
     includes: [
       "Fiets of e-bike, ter plaatse geregeld",
       "Routes van Cycling in Flanders vanaf de deur",
@@ -254,7 +254,7 @@ export const landingPackages = [
   {
     name: "Teams & trainingskampen",
     duration: "Vanaf 5 nachten",
-    text: "Voor teams en clubs die willen dat de logistiek verdwijnt.",
+    text: "Voor teams en clubs die de logistiek uit handen willen geven.",
     includes: [
       "Afgesloten fietsenstalling, werkplaats en fietswas",
       "Teamkeuken en vergaderruimte",
@@ -265,25 +265,25 @@ export const landingPackages = [
 ];
 
 export const landingPackagesNote =
-  "Tarieven hangen af van data en bezetting — check beschikbaarheid en voeg je extra's toe in het boekingssysteem.";
+  "De prijs hangt af van je datums en het aantal gasten. Check beschikbaarheid en voeg je extra’s toe bij het boeken.";
 
 // Deze week uitgelicht: het marketingaanbod dat vooraan op de pagina komt te staan.
 export const landingFeatured = {
   eyebrow: "Deze week uitgelicht",
-  title: "Het aanbod waarmee we deze weken gasten binnenhalen.",
+  title: "De arrangementen waarmee we gasten deze weken verwelkomen.",
   intro:
-    "Elk arrangement bundelt wat vandaag al ter plaatse boekbaar is tot een aanbod dat we vooraan in de markt zetten. Open een kaart voor wat erin zit, of vraag het arrangement rechtstreeks aan.",
-  note: "Deze arrangementen kunnen als pakket in het boekingssysteem worden gezet; vandaag komt een aanvraag rechtstreeks bij ons binnen.",
+    "Elk arrangement bundelt wat je vandaag al ter plaatse kunt boeken. Open een kaart om te zien wat erin zit, of vraag het rechtstreeks aan.",
+  note: "Deze arrangementen kunnen als pakket in het boekingssysteem. Tot dan komt je aanvraag rechtstreeks bij ons binnen.",
 };
 
 export const landingRegion = {
   title: "Brakel, in het hart van de Vlaamse Ardennen.",
-  text: "De kasseien van de Ronde van Vlaanderen starten bij de deur. Brugge, Gent en Brussel liggen binnen handbereik, en de vallei rond de accommodatie is gemaakt om te fietsen, te wandelen en te vertragen.",
+  text: "De kasseien van de Ronde van Vlaanderen beginnen bij de deur. Brugge, Gent en Brussel liggen binnen handbereik. De vallei rond het verblijf is ideaal om te fietsen, te wandelen en het rustiger aan te doen.",
   address: "Teirlinckstraat 24, 9660 Brakel, België",
   image: `${files}/e0b7ec5dd_kapelmuur.jpg`,
   // Wandelmogelijkheden in de buurt — Het Brakelbos (visitvlaamseardennen.be).
   walksEyebrow: "Te voet",
-  walksTitle: "Het Brakelbos, de gedroomde achtergrond voor urenlange wandelingen.",
+  walksTitle: "Het Brakelbos, het decor voor uren wandelen.",
   walksText:
     "Eeuwenoude beuken, en in het voorjaar een lichtblauw tapijt van wilde hyacinten. Samen met het Bos ter Rijst en het Pottelbergbos is dit meer dan 200 hectare bos — met reeën en eekhoorns tussen de stammen.",
   walksAccess:
@@ -332,7 +332,7 @@ export const landingFaq = [
   {
     question: "Kan ik ter plaatse eten?",
     answer:
-      "Restaurant Ci-Ju serveert tapas en Belgisch-Franse gerechten en werkt met reservatie vooraf. Groepen vanaf 15 personen kunnen op aanvraag worden gecaterd.",
+      "Restaurant Ci-Ju serveert tapas en Belgisch-Franse gerechten, op reservatie. Groepen vanaf 15 personen: we regelen het eten op aanvraag.",
   },
   {
     question: "Kan ik het lab, de chamber of de sauna boeken?",
@@ -342,12 +342,12 @@ export const landingFaq = [
   {
     question: "Bieden jullie tarieven voor teams?",
     answer:
-      "Ja — UCI-gelicentieerde teams en renners krijgen speciale tarieven voor langere trainings- en koersverblijven. Neem contact op om te bespreken wat je nodig hebt.",
+      "Ja — UCI-gelicentieerde teams en renners krijgen speciale tarieven voor langere trainings- en koersverblijven. Neem contact op, dan bekijken we wat je team nodig heeft.",
   },
 ];
 
 export const landingClosing = {
-  title: "Klaar wanneer jij het bent.",
+  title: "Je verblijf staat klaar.",
   text: "Check beschikbaarheid en boek rechtstreeks — beste tarief, geen boekingskosten, en alles ter plaatse.",
   cta: "Boek je verblijf",
   image: `${files}/43279e4cd_landing_bedroom.jpg`,

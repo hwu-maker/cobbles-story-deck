@@ -13,7 +13,7 @@ export default function PartnershipNetwork() {
         </Reveal>
         <Reveal delay={0.05}>
           <p className="mt-4 text-white/70 font-light max-w-2xl leading-relaxed">
-            Partners die al betrokken zijn bij de bestemming en de performance-ambitie.
+            Partners die al meedoen, aan de bestemming en aan de performance.
           </p>
         </Reveal>
         <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-12">
@@ -45,7 +45,7 @@ export default function PartnershipNetwork() {
         </Reveal>
         <Reveal delay={0.05}>
           <p className="mt-4 text-white/70 font-light max-w-2xl leading-relaxed">
-            Vijf sporen om het partnernetwerk verder te ontwikkelen.
+            Vijf richtingen om het partnernetwerk verder uit te bouwen.
           </p>
         </Reveal>
         <div className="mt-12 grid sm:grid-cols-2 gap-x-16">

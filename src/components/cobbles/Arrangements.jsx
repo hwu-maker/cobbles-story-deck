@@ -12,7 +12,7 @@ export default function Arrangements() {
       </Reveal>
       <Reveal delay={0.1}>
         <h3 className="mt-5 font-display font-light text-2xl sm:text-3xl lg:text-4xl text-cobbles-charcoal max-w-3xl leading-[1.15]">
-          Van reis naar aanbod: arrangementen die we in de markt zetten.
+          Van verblijf naar aanbod: arrangementen die we aan de gast voorleggen.
         </h3>
       </Reveal>
       <Reveal delay={0.2}>

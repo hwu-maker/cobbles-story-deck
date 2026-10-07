@@ -10,7 +10,7 @@ export default function LandingRooms({ href }) {
           Verblijf
         </span>
         <h2 className="mt-4 font-display font-light text-2xl sm:text-3xl lg:text-4xl text-cobbles-charcoal max-w-2xl leading-[1.15]">
-          Appartementen met keuken, leefruimte en ruimte om te ademen.
+          Appartementen met keuken, leefruimte en plek om tot rust te komen.
         </h2>
 
         <div className="mt-10 grid md:grid-cols-3 gap-6">
