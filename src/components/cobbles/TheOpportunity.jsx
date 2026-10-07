@@ -18,9 +18,7 @@ export default function TheOpportunity() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-8 text-lg text-cobbles-charcoal/70 leading-relaxed font-light">
-              Wie voor herstel komt, ontdekt misschien performance. Een koppel dat voor een
-              natuuruitstap komt, keert terug voor een wellnessverblijf. De bestemming is ontworpen voor
-              combinaties, voor terugkerende bezoeken en voor relaties die groeien.
+              Wie voor herstel komt, ontdekt misschien performance. Een koppel dat voor een uitstap in de natuur komt, keert terug voor een wellnessverblijf. De bestemming is gemaakt om te combineren, terug te komen en langer te blijven.
             </p>
           </Reveal>
         </div>

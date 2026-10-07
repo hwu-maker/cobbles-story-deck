@@ -12,19 +12,15 @@ export default function TheIdea() {
         </Reveal>
         <Reveal delay={0.1}>
           <h2 className="font-display font-light text-3xl sm:text-4xl lg:text-5xl text-cobbles-charcoal mt-6 leading-[1.15] cobbles-text-balance">
-            Mensen willen gezonder leven, beter presteren, goed herstellen en dingen meemaken die
-            ertoe doen.
+            Gezonder leven, beter presteren, goed herstellen, en momenten die blijven hangen.
           </h2>
         </Reveal>
         <Reveal delay={0.2}>
           <p className="mt-10 text-lg lg:text-xl text-cobbles-charcoal/70 leading-relaxed font-light">
-            Vandaag liggen die behoeften verspreid — over klinieken, sportscholen, hotels en retreats.
-            Elk vervult een stukje van het beeld. Geen enkele brengt ze samen.
+            Die wensen zitten nu verspreid over kliniek, sportschool, hotel en retreat. Elk dekt een stuk. Nergens vind je ze samen.
           </p>
           <p className="mt-6 text-lg lg:text-xl text-cobbles-charcoal/70 leading-relaxed font-light">
-            COBBLES is gebouwd op één eenvoudig idee: dat gezondheid, performance, herstel en
-            betekenisvolle beleving bij elkaar horen — op één bestemming, met professionele expertise en
-            oprechte gastvrijheid, in het landschap van de Vlaamse Ardennen.
+            COBBLES vertrekt van één idee: gezondheid, performance, herstel en beleving horen bij elkaar. Op één bestemming, met vakkennis en echte gastvrijheid, in de Vlaamse Ardennen.
           </p>
         </Reveal>
         <Reveal delay={0.3}>

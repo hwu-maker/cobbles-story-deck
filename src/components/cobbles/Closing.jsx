@@ -70,8 +70,7 @@ export default function Closing() {
                 van handelsnaam en merk moet afzonderlijk worden geverifieerd.
               </p>
               <p>
-                Alle proposities worden gepresenteerd als concepten in ontwikkeling, tenzij operationeel
-                bevestigd.
+                Elke propositie is een concept in ontwikkeling, tenzij ze operationeel bevestigd is.
               </p>
             </div>
           </div>

@@ -16,8 +16,7 @@ export default function LandingExperiences({ href }) {
           Meer dan een kamer.
         </h2>
         <p className="mt-5 text-white/60 font-light leading-relaxed max-w-2xl">
-          Het lab, de chamber, de sauna en de wegen zijn er al — ze horen op deze pagina, niet verstopt
-          bij het afrekenen.
+          Lab, chamber, sauna en de wegen horen bij je verblijf. Je ziet ze hier, niet pas bij het afrekenen.
         </p>
 
         <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
@@ -56,8 +55,7 @@ export default function LandingExperiences({ href }) {
               Voeg het toe aan je verblijf.
             </h3>
             <p className="mt-2 text-sm text-white/60 font-light leading-relaxed">
-              Kies je extra's in de volgende stap van het boekingssysteem — wij bevestigen de tijden met
-              jou.
+              Kies je extra’s in de volgende stap. Wij bevestigen de tijden met jou.
             </p>
             <span className="mt-5 inline-flex items-center gap-2 text-sm text-cobbles-copper-light">
               Boek nu

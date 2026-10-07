@@ -26,8 +26,7 @@ export default function TheExperience() {
             </Reveal>
             <Reveal delay={0.2}>
               <p className="mt-8 text-lg text-white/70 leading-relaxed font-light">
-                COBBLES voelt rustig, doordacht en zelfverzekerd. Expertise is warm, niet klinisch. Luxe
-                is stil, niet luid. De omgeving is geworteld in de natuur, het ontwerp is onmiskenbaar nu.
+                COBBLES voelt rustig, verzorgd en zeker van zichzelf. De expertise is warm, niet klinisch. De luxe is stil. De omgeving zit in de natuur, het ontwerp is van nu.
               </p>
             </Reveal>
             <Reveal delay={0.3}>

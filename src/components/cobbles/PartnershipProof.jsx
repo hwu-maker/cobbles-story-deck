@@ -13,8 +13,7 @@ export default function PartnershipProof() {
       </Reveal>
       <Reveal delay={0.05}>
         <p className="mt-4 text-white/70 font-light max-w-2xl leading-relaxed">
-          Het concept bouwt voort op een bestemming die gasten, teams en instellingen al hebben
-          gevonden — en beoordeeld.
+          Het concept bouwt voort op een bestemming die gasten, teams en instellingen al gevonden hebben, en een score hebben gegeven.
         </p>
       </Reveal>
 

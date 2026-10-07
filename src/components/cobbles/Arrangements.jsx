@@ -17,8 +17,7 @@ export default function Arrangements() {
       </Reveal>
       <Reveal delay={0.2}>
         <p className="mt-6 text-lg text-cobbles-charcoal/70 leading-relaxed font-light max-w-3xl">
-          Elk arrangement bundelt wat vandaag al boekbaar is tot een aanbod dat we op de website kunnen
-          uitlichten.
+          Elk arrangement bundelt wat vandaag al boekbaar is, tot een aanbod dat we op de website uitlichten.
         </p>
       </Reveal>
 

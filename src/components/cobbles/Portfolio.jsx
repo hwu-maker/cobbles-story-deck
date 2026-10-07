@@ -103,8 +103,7 @@ export default function Portfolio() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-8 text-lg text-cobbles-charcoal/70 leading-relaxed font-light">
-              Verken het portfolio per pijler. Elke propositie is een werknaam — commerciële namen
-              worden aangescherpt naarmate de concepten zich ontwikkelen.
+              Blader per pijler. De namen zijn nog een werknaam; de definitieve namen volgen zodra het aanbod vastligt.
             </p>
           </Reveal>
         </div>

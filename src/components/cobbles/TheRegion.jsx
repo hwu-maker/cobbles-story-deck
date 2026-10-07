@@ -19,15 +19,12 @@ export default function TheRegion() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-8 text-lg text-cobbles-charcoal/70 leading-relaxed font-light">
-              Rollende heuvels, stille wegen, kasseien en een diep gevoel van plek. De wielerhistoriek
-              van de streek is authentiek — maar slechts één draad. Wat de streek bepaalt, is de natuur,
-              de rust en het karakter.
+              Glooiende heuvels, stille wegen en kasseien, in een landschap dat je meteen voelt. De wielergeschiedenis klopt, maar is niet het hele verhaal. De streek is natuur, rust en karakter.
             </p>
           </Reveal>
           <Reveal delay={0.3}>
             <p className="mt-6 text-base text-cobbles-forest italic font-light">
-              Kasseien en wielererfgoed zijn een authentiek regionaal element — niet de enige reden om te
-              komen.
+              De kasseien en het wielererfgoed horen bij de streek. Ze zijn niet de enige reden om te komen.
             </p>
           </Reveal>
         </div>

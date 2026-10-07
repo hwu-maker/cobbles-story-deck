@@ -13,8 +13,7 @@ export default function LandingPackages({ href }) {
           Een verblijf dat past bij wat je komt doen.
         </h2>
         <p className="mt-5 text-cobbles-charcoal/70 font-light leading-relaxed max-w-2xl">
-          Vier arrangementen die een appartement combineren met wat vandaag al boekbaar is ter plaatse —
-          diagnostiek, herstel, rijden en tafelen.
+          Vier arrangementen: een appartement, plus wat je ter plaatse kunt bijboeken. Diagnostiek, herstel, ritten en tafelen.
         </p>
 
         <div className="mt-10 grid sm:grid-cols-2 gap-6">

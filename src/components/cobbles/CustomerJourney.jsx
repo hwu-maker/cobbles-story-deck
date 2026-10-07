@@ -19,8 +19,7 @@ export default function CustomerJourney() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-8 text-lg text-cobbles-charcoal/70 leading-relaxed font-light">
-              Een gast wil zelden één ding. Dit zijn voorbeelden van hoe het aanbod van COBBLES kan
-              worden gecombineerd tot één samenhangende beleving.
+              Een gast komt zelden voor één ding. Zo wordt het aanbod van COBBLES één verblijf.
             </p>
           </Reveal>
         </div>

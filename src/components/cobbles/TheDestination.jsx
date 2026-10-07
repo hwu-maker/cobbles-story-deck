@@ -30,8 +30,7 @@ export default function TheDestination() {
             </Reveal>
             <Reveal delay={0.2}>
               <p className="mt-8 text-lg text-cobbles-charcoal/70 leading-relaxed font-light">
-                COBBLES is niet één ding — het is de combinatie die het zeldzaam maakt. Professionele
-                zorg naast premium gastvrijheid. Beweging naast herstel. Natuur naast hedendaags design.
+                COBBLES is zeldzaam door de combinatie. Vakbekwame zorg naast warme gastvrijheid. Beweging naast herstel. Natuur naast een interieur van nu.
               </p>
             </Reveal>
             <div className="mt-12 grid sm:grid-cols-2 gap-8">
